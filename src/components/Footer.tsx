@@ -1,0 +1,3 @@
+"use client";
+import Image from "next/image";
+export default function Footer(){return <footer className="footer"><div className="container footer-main"><a className="brand footer-brand" href="#"><Image src="/images/swathi-shree-emblem.jpg" alt="" width={48} height={48} className="brand-mark"/><span><strong>SWATHI SHREE</strong><small>HOSPITAL · THIRUVANNAMALAI</small></span></a><p>Thoughtful care. Trusted connections.<br/>Your health, our priority.</p><a href="#top" className="back-top">BACK TO TOP ↑</a></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} Swathi Shree Hospital. All rights reserved.</span><span>Website concept by Anchor Techno Soft</span></div></footer>}
